@@ -1,0 +1,21 @@
+{
+  "name": "DCLMap Lite",
+  "version": "2.0.0",
+  "description": "DCLMap Lite",
+  "main": "main.js",
+  "repository": {
+  },
+  "author": "Kröpelin Projekt GmbH",
+  "homepage": "https://www.kroepelin-projekte.de/",
+  "keywords": [
+    "ILIAS",
+    "DCL",
+    "MAP",
+    "PLUGIN",
+    "ILIAS9",
+    "KPG"
+  ],
+  "dependencies": {
+    "leaflet": "^1.8.0"
+  }
+}

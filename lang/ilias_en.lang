@@ -1,0 +1,86 @@
+config_home_tab_title#:#Documentation
+config_data_collection_tab_title#:#Data Collection
+config_label_tab_title#:#Labels
+config_output_tab_title#:#Preview
+config_data_collection_lang_message_box_panel_title#:#Update Datasets
+config_data_collection_lang_message_box_message#:#Update data collection. This process is required after changes to the selected data collection.
+config_data_collection_lang_message_box_button#:#Update
+config_data_collection_lang_data_collection_input_panel_title#:#Data Collection
+config_data_collection_lang_data_collection_select_title#:#Select Data Collection
+config_data_collection_lang_data_collection_select_title_byline#:#The selected data collection serves as the data basis for the DCL Map
+config_data_collection_lang_table_fields_panel_help_text#:#Enter the names of the DCL table fields (exact name including capitalization). Please observe the correct field data types!
+config_data_collection_lang_table_fields_panel_title#:#DCL Table Fields
+config_data_collection_lang_table_fields_institution#:#Name/Institution
+config_data_collection_lang_table_fields_street#:#Street
+config_data_collection_lang_table_fields_ZIP#:#Postal Code
+config_data_collection_lang_table_fields_city#:#City
+config_data_collection_lang_table_fields_website#:#Website
+config_data_collection_lang_table_fields_contact_name#:#Contact Person
+config_data_collection_lang_table_fields_website#:#Website
+config_data_collection_lang_table_fields_contact_mail#:#E-Mail
+config_data_collection_lang_table_fields_contact_phone#:#Phone
+config_data_collection_lang_table_fields_kooperation#:#Cooperation
+config_data_collection_lang_table_fields_text#:#(DCL Text Field)
+config_data_collection_lang_table_fields_text_url#:#(DCL Text Field - URL/Email)
+config_data_collection_lang_table_fields_select#:#(DCL Text Selection - Single)
+config_data_collection_lang_table_fields_date#:#(DCL Date Selection)
+config_label_lang_latitude_title#:#Latitude
+config_label_lang_latitude_help_text#:#Enter the latitude coordinates for the DCLMap (map section)
+config_label_lang_longitude_title#:#Longitude
+config_label_lang_longitude_help_text#:#Enter the longitude coordinates for the DCLMap (map section)
+config_label_lang_title_search_title#:#Search Input Heading
+config_label_lang_title_search_help_text#:#Heading of the address field form in the radius search
+config_label_lang_street_title#:#Street
+config_label_lang_street_help_text#:#Placeholder within the "Street" input field
+config_label_lang_city_title#:#City
+config_label_lang_city_help_text#:#Placeholder within the "City" input field
+config_label_lang_submit_button_title#:#Submit Button
+config_label_lang_submit_button_help_text#:#Button text for the radius search "Submit"
+config_label_lang_reset_button_title#:#Reset Button
+config_label_lang_reset_button_help_text#:#Button text for the radius search "Reset"
+config_label_lang_marker_title#:#Marker
+config_label_lang_marker_help_help_text#:#Text in Location Marker Popup Window
+config_label_lang_zip_title#:#Postal Code
+config_label_lang_zip_help_text#:#Placeholder within the "Postal Code" input field
+config_label_lang_color_marker_title#:#Marker Color
+config_label_lang_color_marker_help_text#:#Color selection for location marker
+config_label_lang_color_circle_title#:#Circle Color
+config_label_lang_color_circle_help_text#:#Color selection for the radius circle
+config_label_lang_ui_labels_panel_title#:#UI Labels
+config_label_lang_ui_labels_panel_help_text#:#A clever text goes here
+config_label_lang_result_title#:#Result List Heading
+config_label_lang_result_help_text#:#Heading of the result list display
+config_label_lang_perimeter_title#:#Perimeter
+config_label_lang_perimeter_help_text#:#Distance display text "50 km"
+config_label_lang_email_title#:#Email Link
+config_label_lang_email_help_text#:#Email link text (list entries; location marker popup)
+config_label_lang_website_title#:#Website Link
+config_label_lang_website_help_text#:#Website link text (list entries; location marker popup)
+successConfig#:#The settings have been saved
+failedConfig#:#Please fill in all fields
+failedUpdateConfig#:#The data collection does not meet the requirements of the plugin settings. Check the field names
+failedUpdateinvalidInput#:#Please check the following dataset:
+successConfigDBUpdate#:#The datasets have been updated
+failedConfigUpdate#:#Updating the datasets failed when saving to the database
+config_adress#:#Adress
+config_contact#:#Contact
+cmd_insert#:#insert DCL Map Lite
+website_title#:#Website
+mail_title#:#E-Mail
+msg_create_success#:#DCL Map Lite created - Datasets are being updated in the background, and new entries will be available promptly.
+msg_update_success#:#DCL Map Lite has been updated. - Datasets are being updated in the background, and new entries will be available promptly.
+msg_success_datacollection_update#:#Datasets are being updated in the background, and new entries will be available promptly.
+update_records#:#update Records
+update_records_info#:#In case of changes to the data collection, it is essential to press the "Update Records" button.
+
+backgroundtask_title#:#DclMapLite Data Processing
+backgroundtask_success#:#Data processing successfully completed.
+datacollection#:#datacollection
+datacollection_choose#:#Select datacollection
+no_datacollection_choose#:#No data collection selected
+datacollection_reset#:#reset
+msg_failed_no_datacollection_choose#:#No DataCollection Choose
+msg_failed_tbl_not_found#:#Data Table not Found
+msg_update_label#:#The labels have been updated
+
+

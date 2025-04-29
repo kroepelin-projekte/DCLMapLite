@@ -1,0 +1,84 @@
+config_home_tab_title#:#Dokumentation
+config_data_collection_tab_title#:#Datensammlung
+config_label_tab_title#:#Labels
+config_output_tab_title#:#Vorschau
+config_data_collection_lang_message_box_panel_title#:#Datensätze Aktualisieren
+config_data_collection_lang_message_box_message#:#Datensammlung aktualisieren. Dieser Vorgang ist nach Änderungen an der ausgewählten Datensammlung erforderlich.
+config_data_collection_lang_message_box_button#:#Aktualisieren
+config_data_collection_lang_data_collection_input_panel_title#:#Daten Sammlung
+config_data_collection_lang_data_collection_select_title#:#Datensammlung auswählen
+config_data_collection_lang_data_collection_select_title_byline#:#Die ausgewählte Datensammlung dient als Datengrundlage der DCL Map
+config_data_collection_lang_table_fields_panel_help_text#:#Eingabe der DCL Tabellenfelder-namen (exakte Bezeichnung inkl. Groß-/Kleinschreibung). Bitte die korrekten Felddatentypen beachten!
+config_data_collection_lang_table_fields_panel_title#:#DCL Tabellenfelder
+config_data_collection_lang_table_fields_institution#:#Name/Institution
+config_data_collection_lang_table_fields_street#:#Straße
+config_data_collection_lang_table_fields_ZIP#:#Postleitzahl
+config_data_collection_lang_table_fields_city#:#Stadt
+config_data_collection_lang_table_fields_contact_name#:#Ansprechperson
+config_data_collection_lang_table_fields_website#:#Webseite
+config_data_collection_lang_table_fields_contact_mail#:#E-Mail
+config_data_collection_lang_table_fields_contact_phone#:#Telefon
+config_data_collection_lang_table_fields_kooperation#:#Kooperation
+config_data_collection_lang_table_fields_text#:#(DCL-Textfeld)
+config_data_collection_lang_table_fields_text_url#:#(DCL-Textfeld - URL/E-Mail)
+config_data_collection_lang_table_fields_select#:#(DCL-Text-Auswahl - Single)
+config_data_collection_lang_table_fields_date#:#(DCL-Datum-Auswahl)
+config_label_lang_latitude_title#:#Breitengrad
+config_label_lang_latitude_help_text#:#Eingabe der Breitengrad-Koordinaten für die DCLMap (Kartenausschnitt)
+config_label_lang_longitude_title#:#Längengrad
+config_label_lang_longitude_help_text#:#Eingabe der Längengrad-Koordinaten für die DCLMap (Kartenausschnitt)
+config_label_lang_title_search_title#:#Überschrift Sucheingabe
+config_label_lang_title_search_help_text#:#Überschrift des Adressfeld Formulars der Umkreissuche
+config_label_lang_street_title#:#Straße
+config_label_lang_street_help_text#:#Platzhalter innerhalb des Eingabefelds "Straße"
+config_label_lang_city_title#:#Ort
+config_label_lang_city_help_text#:#Platzhalter innerhalb des Eingabefelds "Ort"
+config_label_lang_submit_button_title#:#Submit Button
+config_label_lang_submit_button_help_text#:#Button Text der Umkreissuche "Submit"
+config_label_lang_reset_button_title#:#Reset Button
+config_label_lang_reset_button_help_text#:#Button Text der Umkreissuche "Reset"
+config_label_lang_marker_title#:#Marker
+config_label_lang_marker_help_help_text#:#Text in Location Marker Popup-Fenster
+config_label_lang_zip_title#:#Postleitzahl
+config_label_lang_zip_help_text#:#Platzhalter innerhalb des Eingabefelds "Postleitzahl"
+config_label_lang_color_marker_title#:#Marker Farbe
+config_label_lang_color_marker_help_text#:#Farbauswahl Standort-Marker (Location-Marker)
+config_label_lang_color_circle_title#:#Umkreis Farbe
+config_label_lang_color_circle_help_text#:#Farbauswahl Umkreis (Location-Circle)
+config_label_lang_ui_labels_panel_title#:#UI Labels
+config_label_lang_ui_labels_panel_help_text#:#Hier kommt ein schlauer Text rein
+config_label_lang_result_title#:#Ergebnislisten Überschrift
+config_label_lang_result_help_text#:#Überschrift der Ergebnislistenanzeige
+config_label_lang_perimeter_title#:#Umkreis
+config_label_lang_perimeter_help_text#:# Text der Entfernungsanzeige " 50 km"
+config_label_lang_email_title#:#E-Mail Link
+config_label_lang_email_help_text#:#Text E-Mail Link (Listeneinträge; Location-Marker-Popup)
+config_label_lang_website_title#:#Webseite Link
+config_label_lang_website_help_text#:#Text Webseite Link (Listeneinträge; Location-Marker-Popup)
+successConfig#:#Die Einstellungen wurden gespeichert
+failedConfig#:#Bitte füllen Sie alle Felder aus
+failedUpdateConfig#:#Die Datensammlung entspricht nicht den Vorgaben der Plugin Einstellungen. Überprüfen Sie die Namen der Felder
+failedUpdateinvalidInput#:#Bitte Überprüfen Sie folgenden Datensatz:
+successConfigDBUpdate#:#Die Datensätze wurden aktuallisiert
+failedConfigUpdate#:#Die Aktuallisierung der Datensätze ist fehlgeschlagen beim Speichern in der Datenbank
+title_of_dcl_copage#:#Titel
+config_adress#:#Adresse
+config_contact#:#Kontakt
+cmd_insert#:#DCL Map Lite einfügen
+website_title#:#Webseite
+mail_title#:#E-Mail
+msg_create_success#:#DCL Map Lite erstellt - Datensätze werden im Hintergrund aktualisiert und neue Einträge werden zeitnah zur Verfügung stehen.
+msg_update_success#:#DCL Map Lite wurde aktuallisiert - Datensätze werden im Hintergrund aktualisiert und neue Einträge werden zeitnah zur Verfügung stehen.
+msg_success_datacollection_update#:#Datensätze werden im Hintergrund aktualisiert und neue Einträge werden zeitnah zur Verfügung stehen.
+update_records#:#Datensätze aktualisieren
+update_records_info#:#Bei Änderungen an der Datensammlung ist es unbedingt erforderlich, den Button "Datensätze aktualisieren" zu betätigen.
+
+backgroundtask_title#:#DclMapLite Datenverarbeitung
+backgroundtask_success#:#Datenverarbeitung erfolgreich abgeschlossen.
+datacollection#:#Datensammlung
+datacollection_choose#:#Datensammlung auswählen
+no_datacollection_choose#:#Keine Datensammlung ausgewählt
+datacollection_reset#:#Zurücksetzen
+msg_failed_no_datacollection_choose#:#Es wurde keine Datensammlung ausgewählt
+msg_failed_tbl_not_found#:#Datentabelle wurde nicht gefunden
+msg_update_label#:#Die Labels wurden aktualisiert

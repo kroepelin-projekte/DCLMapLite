@@ -1,0 +1,136 @@
+<div class="map-id" id="{MAP_ID}">
+    <!-- HIDDEN FIELDS -->
+    <div id="viewpoint_data" style="display: none">{VIEWPOINT_DATA}</div>
+    <div id="dc_marker_group_container">
+        <!-- BEGIN DC_MARKER_GROUPS -->
+        <div class="dc_marker_group"
+             id="dc_marker_group_{DC_MARKER_GROUP_ID}"
+             data-id="{DC_MARKER_GROUP_ID}"
+             data-identifier="{GROUP_IDENTIFIER}"
+             data-title="{DC_MARKER_GROUP_TITLE}"
+             data-color="{DC_MARKER_GROUP_COLOR}"
+             style="display: none"
+        >
+            {DC_MARKER_GROUP}
+        </div>
+        <!-- END DC_MARKER_GROUPS -->
+    </div>
+    <!-- HIDDEN FIELDS -->
+    <div id="dcl-map-toogle-view">
+        <div class="container-fluid">
+            <div id="dcl-map" class="dcl-map-element grid-row">
+                <div class="grid-col grid-col-1">
+                    <div id="per-search-container">
+                        <div class="dcl_searchbox">
+                            <div class="dcl-form-slider" id="dcl-form-slider">
+                                <span id="pov-txt-{MAP_ID}">{LOCATION_INPUT_HEADLINE}</span>
+                                <span class="rs-label" id="rs-label-{MAP_ID}" style="visibility:hidden">
+		                        <span id="dcl-slide_txt_1">{LOCATION_RADIUS_TXT} </span>
+		                        <span id="range_value"></span>
+		                        <span id="dcl-slide_txt_2"> km</span>
+	                            </span>
+                                <br /><br />
+                            </div>
+
+
+                            <div class="input-group">
+                                <div class="dcl_persearch_form">
+                                    <input id="dcl_form_city_{MAP_ID}" type="text" aria-label="Ort"
+                                           class="dcl_form_city form-control" placeholder="{LOCATION_INPUT_CITY}">
+                                    <input id="dcl_form_zip_{MAP_ID}" type="text" aria-label="PLZ"
+                                           class="dcl_form_zip form-control" pattern="[0-9]{5,}"
+                                           placeholder="{LOCATION_INPUT_ZIP}">
+                                    <input id="dcl_form_street_{MAP_ID}" type="text" aria-label="Straße"
+                                           class="dcl_form_street form-control row-cols-sm-3"
+                                           placeholder="{LOCATION_INPUT_STREET}">
+                                </div>
+                                <div class="input-group-btn" role="group" aria-label="ButtonGroup">
+                                    <button type="button" class="btn btn-default btn-success" id="search-button">
+                                        {LOCATION_SEARCH_SUBMIT_BTN}
+                                    </button>
+                                    <button type="button" class="btn btn-default btn-success" id="clear-button">
+                                        {LOCATION_SEARCH_RESET_BTN}
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="dcl_persearch_subform input-group">
+                                <div class="dcl_persearch_subform">
+                                    <input type="range" class="geo-slide-range" id="geo-slide-range-{MAP_ID}" min="0"
+                                           max="125000" step="2500" disabled>
+                                </div>
+
+                            </div>
+                        </div>
+
+                            <div id="result-list-headline">{RESULTLISTHEADLINE}</div>
+                            <div id="result-list-tabs">
+                                <!-- BEGIN SELECTION_GROUP_BUTTONS -->
+                                <button
+                                        type="button"
+                                        class="tgl_btn_filter btn-tgl-filter btn active"
+                                        id="tgl-btn-{DC_MARKER_GROUP_ID}"
+                                        data-toggle="button"
+                                        aria-pressed="true"
+                                        style="display: none;">
+                                    {DC_MARKER_GROUP_TITLE}
+                                    <span id="badge_{DC_MARKER_GROUP_ID}" class="badge"></span>
+                                </button>
+                                <!-- END SELECTION_GROUP_BUTTONS -->
+                            </div>
+
+                        <div class="scroll-container">
+                            <div id="display_filter"></div>
+                            <div id="result-list-container">
+                                <ul id="result-list" class="list-group">
+                                    <!-- BEGIN RECORD -->
+                                    <li
+                                            class="{GROUP_IDENTIFIER} list-group-item grp_{GROUP_ID} inner"
+                                            id="li_{ID}"
+                                            data-grp-id="{GROUP_ID}"
+                                            data-grp-identifier="{GROUP_IDENTIFIER}"
+                                            data-color="{GROUP_COLOR}"
+                                            data-id="{ID}"
+                                            data-institution="{INSTITUTION}"
+                                            data-street="{STREET}"
+                                            data-zip="{ZIP}"
+                                            data-location="{LOCATION}"
+                                            data-name="{NAME}"
+                                            data-web="{WEB}"
+                                            data-mail="{MAIL}"
+                                            data-phone="{PHONE}"
+                                            data-lat="{MEMBER_LAT}"
+                                            data-lng="{MEMBER_LON}"
+                                    >
+                                        <div id="li-btn-{ID}" class="item-inner" aria-label="{GROUP_TITLE}" style="border-left: 1px solid {GROUP_COLOR};">
+                                            <p class="institution" style="color:{GROUP_COLOR};">{INSTITUTION}</p>
+                                            <p class="street">{STREET}</p>
+                                            <p class="zip" style="display: inline">{ZIP} {LOCATION}</p>
+
+                                            <p class="name">{NAME}</p>
+
+                                            <a class="website" href="{WEBSITE}" target='_blank'>
+                                                {WEBSITE_TITLE}
+                                            </a>
+                                            <a class="mail" href="mailto:{MAIL}" target='_blank'>
+                                                {MAIL_TITLE}
+                                            </a>
+                                            <a class="phone" href="tel:+49{PHONE}" target='_blank'>
+                                                {PHONE_TEXT}
+                                            </a>
+
+                                        </div>
+                                    </li>
+                                    <!-- END RECORD -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-col grid-col-2">
+                    <div class="map-container" id="map-container"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
