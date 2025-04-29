@@ -1,7 +1,7 @@
 <?php
 
 use ILIAS\UI\Component\Tree\TreeRecursion;
-use Util\Language;
+use KPG\DML\classes\Util\Language;
 use ILIAS\UI\Component\Tree\Node\Node;
 
 class RepositoryTree
