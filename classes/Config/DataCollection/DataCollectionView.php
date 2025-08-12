@@ -119,14 +119,15 @@ class DataCollectionView implements ConstantConfig
         $text_input_institution = $this->factory->input()->field()->text(
             self::getLang(self::CONFIG_DATA_COLLECTION_LANG_TABLE_FIELDS_INSTITUTION),
             self::getLang(self::CONFIG_DATA_COLLECTION_LANG_TABLE_FIELD_TEXT)
-        )->withRequired(true)->withValue(!is_null($data) ? $data['dc_institution'] : 'Name/Institution');
+        )->withRequired(true)->withValue(!is_null($data) ? $data['dc_institution'] :
+            self::getLang(self::CONFIG_DATA_COLLECTION_LANG_TABLE_FIELDS_INSTITUTION));
 
         $text_input_street = $this->factory->input()->field()->text(
             self::getLang(self::CONFIG_DATA_COLLECTION_LANG_TABLE_FIELDS_STREET),
             self::getLang(self::CONFIG_DATA_COLLECTION_LANG_TABLE_FIELD_TEXT)
         )->withRequired(true)->withValue(
             !is_null($data) ? $data['dc_street'] :
-                'Straße'
+                self::getLang(self::CONFIG_DATA_COLLECTION_LANG_TABLE_FIELDS_STREET)
         );
 
         $text_input_zip = $this->factory->input()->field()->text(
@@ -134,7 +135,7 @@ class DataCollectionView implements ConstantConfig
             self::getLang(self::CONFIG_DATA_COLLECTION_LANG_TABLE_FIELD_TEXT)
         )->withRequired(true)->withValue(
             !is_null($data) ? $data['dc_zip'] :
-                'PLZ'
+                self::getLang(self::CONFIG_DATA_COLLECTION_LANG_TABLE_FIELDS_ZIP)
         );
 
         $text_input_location = $this->factory->input()->field()->text(
@@ -142,14 +143,14 @@ class DataCollectionView implements ConstantConfig
             self::getLang(self::CONFIG_DATA_COLLECTION_LANG_TABLE_FIELD_TEXT)
         )->withRequired(true)->withValue(
             !is_null($data) ? $data['dc_location'] :
-                'Ort'
+                self::getLang(self::CONFIG_DATA_COLLECTION_LANG_TABLE_FIELDS_CITY)
         );
         $text_input_website = $this->factory->input()->field()->text(
             self::getLang(self::CONFIG_DATA_COLLECTION_LANG_TABLE_FIELDS_WEBSITE),
             self::getLang(self::CONFIG_DATA_COLLECTION_LANG_TABLE_FIELD_TEXT_URL)
         )->withValue(
             !is_null($data) ? $data['dc_website'] :
-                'Website'
+                self::getLang(self::CONFIG_DATA_COLLECTION_LANG_TABLE_FIELDS_WEBSITE)
         );
         $hiddenfield = $this->factory->input()->field()->hidden();
 
