@@ -75,7 +75,7 @@ update_records_info#:#In case of changes to the data collection, it is essential
 
 backgroundtask_title#:#DclMapLite Data Processing
 backgroundtask_success#:#Data processing successfully completed.
-datacollection#:#datacollection
+datacollection#:#Datacollection
 datacollection_choose#:#Select datacollection
 no_datacollection_choose#:#No data collection selected
 datacollection_reset#:#reset

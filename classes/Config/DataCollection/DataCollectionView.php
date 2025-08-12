@@ -119,7 +119,7 @@ class DataCollectionView implements ConstantConfig
         $text_input_institution = $this->factory->input()->field()->text(
             self::getLang(self::CONFIG_DATA_COLLECTION_LANG_TABLE_FIELDS_INSTITUTION),
             self::getLang(self::CONFIG_DATA_COLLECTION_LANG_TABLE_FIELD_TEXT)
-        )->withRequired(true)->withValue(!is_null($data) ? $data['dc_institution'] : '');
+        )->withRequired(true)->withValue(!is_null($data) ? $data['dc_institution'] : 'Name/Institution');
 
         $text_input_street = $this->factory->input()->field()->text(
             self::getLang(self::CONFIG_DATA_COLLECTION_LANG_TABLE_FIELDS_STREET),
@@ -149,7 +149,7 @@ class DataCollectionView implements ConstantConfig
             self::getLang(self::CONFIG_DATA_COLLECTION_LANG_TABLE_FIELD_TEXT_URL)
         )->withValue(
             !is_null($data) ? $data['dc_website'] :
-                ''
+                'Website'
         );
         $hiddenfield = $this->factory->input()->field()->hidden();
 

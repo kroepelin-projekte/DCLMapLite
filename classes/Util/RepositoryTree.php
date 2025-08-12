@@ -86,8 +86,7 @@ class RepositoryTree
              */
             public function getChildren($record, $environment = null): array
             {
-                return $this->tree->getChildsByTypeFilter((int) $record['ref_id'], ['dcl']);
-
+                return $this->tree->getChilds((int) $record['ref_id']);
             }
 
             /**
@@ -107,8 +106,8 @@ class RepositoryTree
 
                 $label = '';
                 if ($type === 'dcl') {
-                    $label .= '<input type="radio" name="object_id" data-ref_id="' . $ref_id . '" data-title="' . $title . '" style="margin-right: 5px;">';
-                    $label .= $record['title'] . ' ('. self::getLang('datacollection') .', ' . $ref_id . ')';
+                    $label .= '<input type="radio" name="object_id" id="' . $ref_id . '" data-ref_id="' . $ref_id . '" data-title="' . $title . '" style="margin-right: 5px;">';
+                    $label .= '<label for="' . $ref_id . '">' . $record['title'] . ' ('. self::getLang('datacollection') .', ' . $ref_id . ')</label>';
                 } else {
                     $label .= $record['title'] . ' (' . $environment['lng']->txt($type) . ', ' . $ref_id . ')';
                 }
